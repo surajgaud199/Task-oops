@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+//1
+       class Hospitality {
+         constructor (post, experience, age){
+            this.post = post
+            this.experience = experience
+            this.age = age
+         }
+
+       }
+
+       let devin = new Hospitality("Cashier", "towyears", 25)
+       console.log(devin);
+
+       let alexei = new Hospitality("Prep cook", "fouryears", 30)
+       console.log(alexei);
+
+       let aaron = new Hospitality(" Kitchen manager", "tenyears", 45)
+       console.log(aaron);
+
+
+
+
+//2
+       class Animal{
+        constructor(color, height, name){
+             this.color = color
+             this.height = height
+             this.name = name
+        }
+
+       }
+       
+       let domesticeanimal = new Animal("brown", "small", "dog")
+       console.log(domesticeanimal);
+
+       let wildanimal = new Animal("black", "big" , "elephant")
+       console.log(wildanimal);
+
+       let wateranimal = new Animal("blue", "big", "dolphin")
+       console.log(wateranimal);
+
+
+
+
+
+//3
+       class Banksystem {
+           constructor(post , age , experience){
+            this.post = post
+            this.age = age
+            this.experience = experience
+           }
+           sayhello(){
+            alert("welcome " + this.name)
+           }
+           fil(givename){
+              this.name = givename
+           }
+       }
+
+       let rohit = new Banksystem("Bank Clerk", 25, "threeyears")
+       console.log(rohit);
+       rohit.fil("rohit");
+       rohit.sayhello()
+
+       let sunil = new Banksystem("Loan Officer", 30, "fiveyears")
+       console.log(sunil);
+
+       let dhru = new Banksystem("Asset Manager", 45, "sixyears")
+       console.log(dhru);
+
+
+    </script>
+</body>
+</html>
