@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        class Student{
+            constructor(instututename, studentname, studentage, studentcourse){
+                this.instututename= instututename
+                this.studentname = studentname
+                this.studentage = studentage
+                this.studentcourse = studentcourse
+            }
+        }
+
+
+        let student1 = new Student("ahmedabad", "sunil", 26, "frontend")
+        console.log(student1);
+
+        let student2 = new Student("surat", "ramesh", 30, "backend")
+        console.log(student2);
+
+        let student3 = new Student("baroda", "mihir", 22, "fillstack")
+        console.log(student3);
+
+
+        class Institute extends Student{
+
+        }
+
+        let sunil = new Student("manali", "sunil", 26, "frontend")
+        console.log(sunil);
+
+        let ramesh = new Student("surat", "ramesh", 30, "backend")
+        console.log(ramesh);
+
+        let rakesh = new Student("rajkot", "mihir",22, "fullstack")
+        console.log(rakesh);
+
+    </script>
+</body>
+</html>
